@@ -1,0 +1,44 @@
+{
+  "name": "@railsmob/store",
+  "version": "0.1.0",
+  "description": "Simple and well-tested store",
+  "main": "dist/index.js",
+  "author": "Ivan Zotov <me@ivanzotov.com> (http://ivanzotov.com/)",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/railsmob/store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/railsmob/store/issues"
+  },
+  "homepage": "https://github.com/railsmob/store",
+  "keywords": [
+    "store"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "format": "prettier --write '__tests__/**/*.js' 'src/**/*.js' 'index.js'"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.27.5",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
