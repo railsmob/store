@@ -740,9 +740,9 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@railsmob/events@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@railsmob/events/-/events-0.1.7.tgz#9e55a28932d04fdb604bc72cbf0fd88cc1c493d2"
+"@railsmob/events@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@railsmob/events/-/events-0.1.8.tgz#7f2afff4de666a9898462ff9b79bc1aa55ea28bc"
 
 "@types/babel__core@^7.1.0":
   version "7.1.3"

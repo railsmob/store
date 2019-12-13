@@ -18,12 +18,12 @@ export default class Store {
   once = (eventId, fn) => events.once(`store_${eventId}`, fn);
   /**
    * @param {string} eventId
-   * @param {Function} fn
+   * @param {Function} [fn]
    */
   off = (eventId, fn) => events.off(`store_${eventId}`, fn);
   /**
    * @param {string} eventId
-   * @param {any} args
+   * @param {any} [args]
    */
   emit = (eventId, args) => events.emit(`store_${eventId}`, args);
 
