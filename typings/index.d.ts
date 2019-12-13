@@ -30,7 +30,7 @@ declare module 'src/Store' {
     update: (fn: (state: Object) => Object) => void;
   }
 }
-declare module 'index' {
+declare module '@railsmob/store' {
   export { Store };
   var _default: Store;
   export default _default;

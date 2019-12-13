@@ -1,6 +1,6 @@
 {
   "name": "@railsmob/store",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Small and well-tested store",
   "main": "lib/index.js",
   "unpkg": "dist/index.js",
@@ -27,7 +27,7 @@
     "flow": "flow",
     "flowgen": "flowgen typings/index.d.ts -o flow-typed/npm/@railsmob/store_v0.x.x.js.flow",
     "debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
-    "format": "prettier --write \"{__tests__,src,typings}/**/*.{js,ts}\" \"./*.{js,json}\""
+    "format": "prettier --write \"{__tests__,@railsmob,src,typings}/**/*.{js,ts}\" \"./*.{js,json}\""
   },
   "files": [
     "src",
@@ -36,7 +36,7 @@
     "flow-typed"
   ],
   "dependencies": {
-    "@railsmob/events": "^0.1.6"
+    "@railsmob/events": "^0.1.7"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",

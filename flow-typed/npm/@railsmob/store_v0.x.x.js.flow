@@ -42,7 +42,7 @@ declare module "src/Store" {
   }
 }
 
-declare module "index" {
+declare module "@railsmob/store" {
   declare export { Store };
 
   declare var _default: Store;

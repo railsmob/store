@@ -8,5 +8,5 @@
     "declaration": true,
     "emitDeclarationOnly": true
   },
-  "files": ["./index.js", "./src/Store.js"]
+  "files": ["./@railsmob/store.js"]
 }
