@@ -1,6 +1,6 @@
 {
   "name": "@railsmob/store",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Small and well-tested store",
   "main": "lib/index.js",
   "unpkg": "dist/index.js",
