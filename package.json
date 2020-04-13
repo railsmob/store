@@ -1,6 +1,6 @@
 {
   "name": "@railsmob/store",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Small and well-tested store",
   "main": "lib/index.js",
   "unpkg": "dist/index.js",
@@ -37,7 +37,7 @@
     "types"
   ],
   "dependencies": {
-    "@railsmob/events": "^0.2.0"
+    "@railsmob/events": "^0.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
